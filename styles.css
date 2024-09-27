@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+.left-panel {
+    position: relative;
+    top: 50px;
+    left:60px;
+    
+}
+h2 {
+    font-size: 40px;
+    font-weight: 100;
+}
+p {
+    position: relative;
+    top:18px;
+}
+img {
+    position: relative;
+    top:120px;
+    
+}
+
+
+.right-panel {
+  position: relative;
+  left:600px;
+  bottom:350px;
+}
+h3 {
+    position: relative;
+    font-size: 20px;
+    bottom:40px;
+    font-weight: 100;
+    left:40px;
+}
+h4 {
+    font-weight: 100;
+    position: relative;
+    left:250px;
+    bottom:63px;
+    font-size:20px;
+    color:rgb(30, 124, 201);
+    display: inline-block;
+    
+}
+h4::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 175px; 
+    height: 4px; 
+    background-color: rgb(30, 124, 201);
+    transform: translateX(-15%);
+    top:30px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    left:70px;
+}
+label[for="phone"] {
+    position: relative;
+    top:20px;
+}
+#phone {
+    position: relative;
+    bottom:10px;
+    left:122px;
+}
+
+.verify-button {
+    position: relative;
+    right:22px;
+    background-color: #ffdd00;
+    border: none;
+    padding: 11px 21px;
+    cursor: pointer;
+    color: black;
+    bottom:10px;
+}
+label[for="verification"] {
+    position: relative;
+    bottom:19px;
+}
+#verification {
+    position: relative;
+    bottom:20px;
+    left:30px;
+}
+label[for="email"] {
+    position: relative;
+    bottom:12px;
+}
+#email {
+    position: relative;
+    bottom:12px;
+    left:80px;
+}
+label[for="password"] {
+    position: relative;
+    bottom:2px;
+}
+#password {
+    position: relative;
+    bottom:5px;
+    left:55px;
+}
+label[for="gender-op"] {
+    position: relative;
+    top:18px;
+} 
+.gender {
+    position: relative;
+    left:125px;
+}
+label[for="birthday"] {
+    position: relative;
+    top:22px;
+}
+.birthday {
+    position: relative;
+    left:125px;
+    bottom:7px;
+    display: flex;
+    gap:25px;
+    align-items: center;
+}
+.birthday select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  
+}
+.tick {
+    position: relative;
+    left:123px;
+    top:12px;
+}
+.submit-button {
+    position: relative;
+    right:22px;
+    background-color: #ffdd00;
+    border: none;
+    padding: 15px 190px;
+    cursor: pointer;
+    color: black;
+    left:120px;
+    top:12px;
+    font-size:18px;
+}
+.right-panel p {
+    position: relative;
+    left:120px;
+    top:40px;
+   
+}

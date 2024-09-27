@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo tài khoản</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h2>Tạo tài khoản</h2>
+            <p>Tạo tài khoản để theo dõi đơn hàng, lưu <br> danh sách sản phẩm yêu thích, nhận <br> nhiều ưu đãi hấp dẫn.</p>
+            <img src="https://pipe.tikicdn.com/media/upload/2018/10/12/2a3acb91a35d45e1b4b7c96912a0c84a.png" alt="Hình bản đồ minh họa" class="map-image">
+        </div>
+        <div class="right-panel">
+            <h3>Đăng nhập</h3>
+            <h4>Tạo tài khoản </h4>
+            <form >
+                <label for="name">Họ tên</label>
+                <input type="text" id="name" placeholder="Nhập họ tên">
+                <br>
+                <label for="phone">SĐT</label>
+                <div class="phone-verification">
+                    <input type="text" id="phone" placeholder="Nhập số điện thoại">
+                    <button type="button" class="verify-button">Gửi mã xác thực</button>
+                </div>
+                <br>
+                <label for="verification">Mã xác thực</label>
+                <input type="text" id="verification" placeholder="Nhập mã xác thực">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Nhập email">
+                <br>
+                <label for="password">Mật khẩu</label>
+                <input type="password" id="password" placeholder="Mật khẩu từ 6 đến 32 ký tự">
+                <br>
+                <label for="gender-op">Giới tính</label>
+                <div class="gender">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Nam</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Nữ</label>
+                </div>
+                <br>
+                <label for="birthday">Ngày sinh</label>
+                <div class="birthday">
+                    <select name="day" id="day">
+                        <option value="">Ngày</option>
+                    </select>
+                    <select name="month" id="month">
+                        <option value="">Tháng</option>
+                    </select>
+                    <select name="year" id="year">
+                        <option value="">Năm</option>
+                    </select>
+                </div>
+                <br>
+                <div class="tick">
+                    <input type="checkbox" id="tick">
+                    <label for="tick">Nhận các thông tin và chương trình khuyến mãi của Tiki qua email.</label>
+                </div>
+                <br>
+                <button type="submit" class="submit-button">Tạo tài khoản</button>
+            </form>
+            <p>Bằng cách nhấn Đăng ký, bạn đã đồng ý với mọi điều khoản mua bán <br> theo <a href="https://bloggiamgia.vn/chinh-sach-hoat-dong-cua-tiki" style="text-decoration: none;">điều kiện sử dụng và chính sách của Tiki</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
